@@ -1,8 +1,65 @@
 body {
     background-color: hsl(30, 18%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px;
+    font-size: 16px;
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400px;
 }
 
 img {
-    height: 150px;
-    width: 280px;
+    height: 200px;
+    width: 440px;
+    border-radius: 10px;
+}
+
+.cartao {
+    background-color: hsl(0, 0%, 100%);
+    width: 650px;
+    height: 1200px;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.texto {
+    padding: 3px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.lista {
+    background-color: hsl(330, 100%, 98%);
+}
+
+.subtitulo {
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    padding: 15px 0px;
+    text-align: justify;
+}
+
+.lista {
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+.preparacao {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outif", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.lista1 {
+    font-family: "Outfit", sans-serif;
+    padding-left: 15px;
+    list-style: circle;
+    list-style-position: outside;
 }
