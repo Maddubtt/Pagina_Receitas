@@ -25,8 +25,8 @@ img {
 }
 
 .imagem{
-    background-color: blueviolet;
-    height: 235px;
+    /* background-color: blueviolet; */
+    height: 250px;
 }
 
 .texto {
@@ -70,9 +70,13 @@ h1 {
     margin-left: 0}
 }
 
+.bold {
+    font-weight: 600;
+}
+
 .ingredientes {
-    padding-bottom: 70px;
-    border-bottom: 0.1mm solid black;
+    padding-bottom: 30px;
+    border-bottom: 0.1mm solid rgba(0, 0, 0, 0.338);
 }
 
 .ing-titulo {
@@ -84,12 +88,25 @@ h1 {
 
 .lista2 {
     list-style: none;
-    li::before {content: "•"; color: hsl(14, 45%, 36%);
-    display: inline-block; width: 35px; height: 27px;
-    margin-left: 0}
-    
 }
 
-span {
+.marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 7px;
+}
+
+.ing-li {
+    font-size: 15px;
     font-family: "Outfit", sans-serif;
+}
+
+.inst-titulo {
+    padding-top: 25px;
+}
+
+.lista-inst {
+    border: 3px solid orangered;
+    padding-left: 25px;
 }
