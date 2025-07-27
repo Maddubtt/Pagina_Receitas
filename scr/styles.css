@@ -33,7 +33,7 @@ img {
     padding: 0px 3px;
 }
 
-h1 {
+.titulo-receita {
     font-family: "Young Serif";
     font-weight: 400;
     padding-top: 15px;
@@ -103,10 +103,20 @@ h1 {
 }
 
 .inst-titulo {
-    padding-top: 25px;
+    font-family: "Young Serif", sans-serif;
+    color: hsl(14, 45%, 36%);
+    padding: 20px 0;
+    font-weight: 400;
 }
 
 .lista-inst {
     border: 3px solid orangered;
     padding-left: 25px;
+    font-family: "Outfit", sans-serif;
+}
+
+.inst-li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
 }
