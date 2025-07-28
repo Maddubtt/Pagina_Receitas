@@ -1,6 +1,7 @@
 body {
-    background-color: hsl(30, 18%, 87%);
+    background-color: #F3E5D8;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 55px;
@@ -10,9 +11,9 @@ body {
 }
 
 .cartao {
-    background-color: hsl(0, 0%, 100%);
+    background-color: #FFFFFF;
     width: 650px;
-    height: 2500px;
+    height: auto;
     /* 1200px */
     border-radius: 25px;
     padding: 30px;
@@ -24,9 +25,8 @@ img {
     border-radius: 10px;
 }
 
-.imagem{
-    /* background-color: blueviolet; */
-    height: 250px;
+.imagem {
+    min-height: 250px;
 }
 
 .texto {
@@ -34,6 +34,7 @@ img {
 }
 
 .titulo-receita {
+    color: #1F1F1F;
     font-family: "Young Serif";
     font-weight: 400;
     padding-top: 15px;
@@ -48,8 +49,9 @@ img {
 
 .lista {
     background-color: hsl(330, 100%, 98%);
-    padding: 25px 20px;
+    padding: 1.3rem;
     border-radius: 10px;
+    margin-bottom: 1.5rem;
 }
 
 .preparacao {
@@ -75,14 +77,14 @@ img {
 }
 
 .ingredientes {
-    padding-bottom: 30px;
-    border-bottom: 0.1mm solid rgba(0, 0, 0, 0.338);
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1mm solid rgba(0, 0, 0, 0.2);
 }
 
 .ing-titulo {
     font-family: "Young Serif", sans-serif;
     color: hsl(14, 45%, 36%);
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
     font-weight: 400;
 }
 
@@ -105,18 +107,65 @@ img {
 .inst-titulo {
     font-family: "Young Serif", sans-serif;
     color: hsl(14, 45%, 36%);
-    padding: 20px 0;
+    padding: 1.5rem 0 1.3rem 0rem;
     font-weight: 400;
 }
 
 .lista-inst {
-    border: 3px solid orangered;
-    padding-left: 25px;
+    padding: 0 0 1.5rem 1.5rem;
     font-family: "Outfit", sans-serif;
+    border-bottom: 0.1mm solid rgba(0, 0, 0, 0.2);
 }
 
 .inst-li::marker {
     color: hsl(14, 45%, 36%);
     font-family: "Outfit", sans-serif;
     font-size: 15px;
+}
+
+.inst-li {
+    padding-left: 0.85rem;
+}
+
+.nutricao {
+    font-family: "Outfit", sans-serif;
+}
+
+.nutricao-titulo {
+    font-family: "Young Serif", sans-serif;
+    color: hsl(14, 45%, 36%);
+    padding: 1.5rem 0 1.3rem 0rem;
+    font-weight: 400;
+}
+
+.nutricao-texto {
+    padding-bottom: 1rem;
+}
+
+.nutricao-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela {
+    /* background-color: violet; */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td {
+    padding: 1rem 0 1rem 1.5rem;
+}
+
+.tabela th {
+    text-align: left;
+    color: rgb(133, 70, 50);
+}
+
+.tabela tr:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.attribution {
+    margin-top: 0.7rem;
 }
